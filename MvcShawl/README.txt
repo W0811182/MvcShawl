@@ -24,3 +24,13 @@ After adding the initialcreate migration and updating the db I am able to route 
 Before I do anything I am going to commit and push my progress now that I am done the inital database work
 ****I have a server instance of ProjectModels in my sql object explorer. I changed the connection string in appsettings so change the string if you have db problems******
 ****
+
+1709
+Alright now its time to create some seed data and link the title to catalogue
+
+1727
+I have made the title link to my catalogue and created my seed data. 
+Now I have to make sure the seed data will be taken into account on project initalize
+
+1734
+The seed data is filling up the catalogue when I route to it now! Now I will push to the github once again.

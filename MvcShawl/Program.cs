@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using MvcShawl.Data;
+using MvcShawl.Models;
 using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -19,6 +20,12 @@ builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 
+using (var scope =app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+
+    seedData.Initialize(services);
+}
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {

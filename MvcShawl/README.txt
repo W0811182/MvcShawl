@@ -34,3 +34,8 @@ Now I have to make sure the seed data will be taken into account on project init
 
 1734
 The seed data is filling up the catalogue when I route to it now! Now I will push to the github once again.
+
+1738
+Now with the project pushed to the github again I am going to take a small break but whats next is 
+to find a suitable logo for our shawl company and then create the content for an "About Us" page.
+After that should just be making sure the external gtihub 'README.md' is filled with the required information and then done!

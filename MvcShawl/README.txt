@@ -39,3 +39,14 @@ The seed data is filling up the catalogue when I route to it now! Now I will pus
 Now with the project pushed to the github again I am going to take a small break but whats next is 
 to find a suitable logo for our shawl company and then create the content for an "About Us" page.
 After that should just be making sure the external gtihub 'README.md' is filled with the required information and then done!
+
+
+1945
+I grabbed a logo and made a quick about us page.
+Now all that should be left for the prototype should be a readme in the github repo with overview info about the project.
+
+
+1957
+I messed around with the about us page a little more and added some styling
+Now to do the final test, then if good the final commit. 
+Then I will complete the README.md within github
